@@ -1,0 +1,28 @@
+{
+  "name": "business",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Farm produce store monorepo",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:admin": "npm --prefix admin-dashboard run dev",
+    "dev:all": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\" \"npm --prefix admin-dashboard run dev\"",
+    "start": "concurrently \"npm --prefix backend run start\" \"npm --prefix frontend run start\"",
+    "start:admin": "npm --prefix admin-dashboard run start",
+    "start:all": "concurrently \"npm --prefix backend run start\" \"npm --prefix frontend run start\" \"npm --prefix admin-dashboard run start\"",
+    "test": "echo \"No tests configured\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.10.2",
+    "@supabase/supabase-js": "^2.104.1",
+    "firebase": "^12.11.0"
+  }
+}

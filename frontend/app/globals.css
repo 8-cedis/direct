@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary-green: #3b6d11;
+  --color-light-green: #eaf3de;
+  --color-mid-green: #639922;
+  --color-dark-green: #27500a;
+  --color-earth-brown: #854f0b;
+  --color-earth-light: #faeeda;
+  --color-border: rgba(0, 0, 0, 0.16);
+  --color-surface: #ffffff;
+  --color-muted: #4b5563;
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --radius-pill: 20px;
+  --border-default: 0.5px solid var(--color-border);
+  --transition-fast: all 0.2s ease;
+}
+
+body {
+  background: #f9fbf7;
+  color: var(--color-dark-green);
+  font-family: var(--font-body), "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.site-bg {
+  background:
+    radial-gradient(circle at 8% 2%, rgba(99, 153, 34, 0.1), transparent 28%),
+    radial-gradient(circle at 92% 98%, rgba(59, 109, 17, 0.1), transparent 34%),
+    linear-gradient(180deg, #f9fbf7 0%, #f3f7ef 100%);
+}
+
+.brand-title {
+  font-family: var(--font-display), "Times New Roman", serif;
+  letter-spacing: 0.3px;
+}
+
+.display-title {
+  font-family: var(--font-display), "Times New Roman", serif;
+  letter-spacing: 0.2px;
+}
+
+.card {
+  border: var(--border-default);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  transition: var(--transition-fast);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-mid-green);
+}
+
+.control {
+  border: var(--border-default);
+  border-radius: var(--radius-control);
+  background: #fff;
+  transition: var(--transition-fast);
+}
+
+.btn-primary {
+  border: var(--border-default);
+  border-radius: var(--radius-control);
+  background: var(--color-primary-green);
+  color: #fff;
+  transition: var(--transition-fast);
+}
+
+.btn-primary:hover {
+  background: var(--color-mid-green);
+}
+
+.btn-secondary {
+  border: var(--border-default);
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--color-dark-green);
+  transition: var(--transition-fast);
+}
+
+.btn-secondary:hover {
+  background: var(--color-light-green);
+}
+
+.badge-pill {
+  border: var(--border-default);
+  border-radius: var(--radius-pill);
+  padding: 0.2rem 0.7rem;
+  font-size: 0.78rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="search"],
+textarea,
+select {
+  border: var(--border-default);
+  border-radius: var(--radius-control);
+  transition: var(--transition-fast);
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--color-mid-green);
+  box-shadow: 0 0 0 2px rgba(99, 153, 34, 0.18);
+}
+
+button {
+  transition: var(--transition-fast);
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+a {
+  transition: var(--transition-fast);
+}

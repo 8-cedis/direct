@@ -1,0 +1,67 @@
+[
+  {
+    "original": "apple.webp",
+    "filename": "1777548619385-995844578.webp",
+    "url": "http://localhost:5000/uploads/1777548619385-995844578.webp"
+  },
+  {
+    "original": "banana.webp",
+    "filename": "1777548619415-603146890.webp",
+    "url": "http://localhost:5000/uploads/1777548619415-603146890.webp"
+  },
+  {
+    "original": "cabbage.webp",
+    "filename": "1777548619421-808764538.webp",
+    "url": "http://localhost:5000/uploads/1777548619421-808764538.webp"
+  },
+  {
+    "original": "carrot.webp",
+    "filename": "1777548619430-211538242.webp",
+    "url": "http://localhost:5000/uploads/1777548619430-211538242.webp"
+  },
+  {
+    "original": "grapes.webp",
+    "filename": "1777548619436-58534142.webp",
+    "url": "http://localhost:5000/uploads/1777548619436-58534142.webp"
+  },
+  {
+    "original": "mango.jpg",
+    "filename": "1777548619445-171071181.jpg",
+    "url": "http://localhost:5000/uploads/1777548619445-171071181.jpg"
+  },
+  {
+    "original": "onions.webp",
+    "filename": "1777548619451-446527999.webp",
+    "url": "http://localhost:5000/uploads/1777548619451-446527999.webp"
+  },
+  {
+    "original": "orange.jpg",
+    "filename": "1777548619458-464054964.jpg",
+    "url": "http://localhost:5000/uploads/1777548619458-464054964.jpg"
+  },
+  {
+    "original": "pepper.webp",
+    "filename": "1777548619465-796922777.webp",
+    "url": "http://localhost:5000/uploads/1777548619465-796922777.webp"
+  },
+  {
+    "original": "pineapple.webp",
+    "filename": "1777548619477-84723316.webp",
+    "url": "http://localhost:5000/uploads/1777548619477-84723316.webp"
+  },
+  {
+    "original": "spinach.webp",
+    "filename": "1777548619485-100867480.webp",
+    "url": "http://localhost:5000/uploads/1777548619485-100867480.webp"
+  },
+  {
+    "original": "tomatoes.webp",
+    "filename": "1777548619493-262838401.webp",
+    "url": "http://localhost:5000/uploads/1777548619493-262838401.webp"
+  },
+  {
+    "original": "watermelon.webp",
+    "filename": "1777548619500-983870105.webp",
+    "url": "http://localhost:5000/uploads/1777548619500-983870105.webp"
+  }
+]
