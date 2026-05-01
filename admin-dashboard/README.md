@@ -31,5 +31,5 @@ From repo root:
 
 - Admin login uses the shared backend `/api/login` endpoint.
 - Admin API calls use `NEXT_PUBLIC_API_BASE_URL`.
-- The storefront links to this app using `NEXT_PUBLIC_ADMIN_PORTAL_URL`.
+- The storefront links to this app using `NEXT_PUBLIC_ADMIN_PORTAL_BASE_URL`.
 - Backend CORS should include both app URLs using `CORS_ORIGINS`.

@@ -1,5 +1,5 @@
 export default function AdminAccessFab() {
-  const adminPortalHref = process.env.NEXT_PUBLIC_ADMIN_PORTAL_URL || "http://localhost:3001/admin/login";
+  const adminPortalHref = process.env.NEXT_PUBLIC_ADMIN_PORTAL_BASE_URL || "http://localhost:3001/admin/login";
 
   return (
     <a

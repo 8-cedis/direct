@@ -82,8 +82,19 @@ The apps can run with local fallbacks, but these environment variables are used 
 - `NEXT_PUBLIC_API_BASE_URL` - backend API base URL for the storefront and admin app
 - `NEXT_PUBLIC_SUPABASE_URL` - Supabase project URL
 - `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Supabase anonymous key
-- `NEXT_PUBLIC_ADMIN_PORTAL_URL` - link target for the storefront admin button
+- `NEXT_PUBLIC_ADMIN_PORTAL_BASE_URL` - storefront redirect target for the admin portal
 - `CORS_ORIGINS` - comma-separated list of allowed frontend origins for the backend
+
+## Vercel Deployment
+
+For the safest setup, create two Vercel projects from the same repo:
+
+- Storefront project root: `frontend`
+- Admin project root: `admin-dashboard`
+
+Then set `NEXT_PUBLIC_ADMIN_PORTAL_BASE_URL` in the storefront project to the admin project's live URL.
+
+Do not deploy the whole monorepo from the repo root unless you intentionally want to manage custom routing.
 
 Example backend origin setup:
 
