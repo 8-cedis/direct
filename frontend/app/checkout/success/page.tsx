@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useState, FormEvent } from "react";
 
 const STAR_LABELS = ["", "Poor", "Fair", "Good", "Great", "Excellent"];
 
@@ -12,7 +12,7 @@ export default function CheckoutSuccessPage() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (!rating) return;
     setSubmitting(true);
